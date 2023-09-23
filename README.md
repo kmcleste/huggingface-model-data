@@ -30,3 +30,17 @@ To download the dataset, you will need git-lfs. See [these instructions](https:/
     ```
 
     Note: If you decide to run the notebook, scraping will take ~ 45 minutes
+
+## Data
+
+| Column        | Type                |
+| ------------- | ------------------- |
+| downloads     | int                 |
+| id            | str                 |
+| lastModified  | datetime (iso-8601) |
+| likes         | int                 |
+| pipeline_tag  | str                 |
+| private       | bool                |
+| repoType      | str                 |
+| author        | str                 |
+| authorData    | dict                |
